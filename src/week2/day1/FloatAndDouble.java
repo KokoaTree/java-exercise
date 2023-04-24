@@ -19,7 +19,11 @@ public class FloatAndDouble {
         System.out.println("result2 = " + result2);
 
         float ff = 3.141592653589793f; // 7자리 초과하면 반올림
-        System.out.println(ff);
+        double dd = 3.141592653589793;
+
+        System.out.println("float pi -> " + ff);
+        System.out.println("double pi -> " + dd);
+
 
     }
 }
