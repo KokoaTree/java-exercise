@@ -6,5 +6,6 @@ public class SpaveInvader {
     }
     private void moveRight() {
         int location = 1;
+        dddd
     }
 }
