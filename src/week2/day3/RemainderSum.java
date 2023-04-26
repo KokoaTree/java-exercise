@@ -1,10 +1,14 @@
 package week2.day3;
 
+import java.util.Scanner;
+
 public class RemainderSum {
     public static void main(String[] args) {
-        int num = 687;
+//        int num = 687;
 //        int num = 891;
 //        int num = 1234;
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
 
         int val1 = num % 10; // --> 7
         num = num / 10; // 68
