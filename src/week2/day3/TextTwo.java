@@ -13,16 +13,21 @@ public class TextTwo {
 
         int[][] arr10X10 = new int[10][10];
 
-        System.out.println(Arrays.toString(arr10X10[0]));
-        System.out.println(Arrays.toString(arr10X10[1]));
-        System.out.println(Arrays.toString(arr10X10[2]));
-        System.out.println(Arrays.toString(arr10X10[3]));
-        System.out.println(Arrays.toString(arr10X10[4]));
-        System.out.println(Arrays.toString(arr10X10[5]));
-        System.out.println(Arrays.toString(arr10X10[6]));
-        System.out.println(Arrays.toString(arr10X10[7]));
-        System.out.println(Arrays.toString(arr10X10[8]));
-        System.out.println(Arrays.toString(arr10X10[9]));
+//        System.out.println(Arrays.toString(arr10X10[0]));
+//        System.out.println(Arrays.toString(arr10X10[1]));
+//        System.out.println(Arrays.toString(arr10X10[2]));
+//        System.out.println(Arrays.toString(arr10X10[3]));
+//        System.out.println(Arrays.toString(arr10X10[4]));
+//        System.out.println(Arrays.toString(arr10X10[5]));
+//        System.out.println(Arrays.toString(arr10X10[6]));
+//        System.out.println(Arrays.toString(arr10X10[7]));
+//        System.out.println(Arrays.toString(arr10X10[8]));
+//        System.out.println(Arrays.toString(arr10X10[9]));
+//        System.out.println();
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(Arrays.toString(arr10X10[i]));
+        }
 
     }
 }
